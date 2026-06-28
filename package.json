@@ -15,6 +15,9 @@
   ],
   "license": "MIT",
   "author": "sunghyun_han",
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/tjdgus4560/cardnews-maker-skill#readme",
   "repository": {
     "type": "git",
