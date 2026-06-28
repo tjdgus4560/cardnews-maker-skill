@@ -1,6 +1,6 @@
 {
   "name": "@sunghyun_han/cardnews-maker-skill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Installer for the cardnews_maker agent skill (Claude Code + Codex CLI) — turn a topic, URL, or draft into 800x800 Korean card-news images (카드뉴스).",
   "keywords": [
     "claude",
