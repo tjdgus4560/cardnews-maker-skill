@@ -1,0 +1,13 @@
+node_modules/
+*.tgz
+*.log
+.DS_Store
+
+# 스킬 실행 시 생기는 렌더 산출/작업 잔여물
+skill/scripts/cards/
+skill/scripts/out/
+skill/**/node_modules/
+skill/**/package-lock.json
+**/cardnews/
+*.png
+*.pdf

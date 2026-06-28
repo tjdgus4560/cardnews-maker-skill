@@ -1,0 +1,10 @@
+# 렌더링 산출/작업 잔여물 (스킬 실행 시 생기는 것들)
+skill/scripts/cards/
+skill/scripts/out/
+skill/**/node_modules/
+skill/**/package-lock.json
+**/cards/
+**/out/
+*.png
+*.pdf
+.DS_Store

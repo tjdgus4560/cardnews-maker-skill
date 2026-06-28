@@ -1,0 +1,47 @@
+{
+  "name": "@sunghyun_han/cardnews-maker-skill",
+  "version": "1.0.0",
+  "description": "Installer for the cardnews_maker agent skill (Claude Code + Codex CLI) — turn a topic, URL, or draft into 800x800 Korean card-news images (카드뉴스).",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "codex",
+    "codex-cli",
+    "agent-skill",
+    "skill",
+    "cardnews",
+    "카드뉴스",
+    "playwright"
+  ],
+  "license": "MIT",
+  "author": "sunghyun_han",
+  "homepage": "https://github.com/tjdgus4560/cardnews-maker-skill#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjdgus4560/cardnews-maker-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tjdgus4560/cardnews-maker-skill/issues"
+  },
+  "bin": {
+    "cardnews-maker-skill": "bin/install.js",
+    "cardnews-maker-install": "bin/install.js"
+  },
+  "scripts": {
+    "postinstall": "node -e \"process.env.CARDNEWS_SKIP_AUTO || console.log('\\n설치를 마치려면: npx @sunghyun_han/cardnews-maker-skill\\n')\""
+  },
+  "files": [
+    "bin/",
+    "skill/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ]
+}
