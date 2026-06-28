@@ -4,7 +4,7 @@
 
 Give it a blog post, an article, a report, or just an idea — it builds a cohesive card-news deck: cover, body cards, stat cards, diagrams, and a closing card, with a color theme picked to fit the subject.
 
-🇰🇷 **한국어 설명은 아래로 스크롤하거나 [여기](#한국어)를 누르세요.**
+🇰🇷 **한국어 설명은 아래로 스크롤하세요 (Korean docs below).**
 
 ---
 
@@ -124,8 +124,6 @@ npm install && npx playwright install chromium
 MIT
 
 ---
-
-<a name="한국어"></a>
 
 ## 🇰🇷 한국어
 
