@@ -57,6 +57,14 @@ With no flag and no interactive terminal, it installs into whichever tools it de
 </details>
 
 <details>
+<summary>Install straight from GitHub (no npm publish needed)</summary>
+
+```bash
+npx github:tjdgus4560/cardnews-maker-skill
+```
+</details>
+
+<details>
 <summary>Global install</summary>
 
 ```bash
